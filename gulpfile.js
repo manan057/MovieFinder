@@ -22,6 +22,7 @@ gulp.task('copy', function(){
     .pipe(gulp.dest('dist/js'));
 })
 
+// keep track of the changes and run the tasks 
 gulp.task('default', ['browserify', 'copy'], function() {
   return gulp.watch('src/**/*.*', ['browserify', 'copy']);
 });
