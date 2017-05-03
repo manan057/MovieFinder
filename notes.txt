@@ -1,3 +1,0 @@
-components folder contains all the react files
-vendors folder contains all the libraries like jquery
-utils folder will contain the api
